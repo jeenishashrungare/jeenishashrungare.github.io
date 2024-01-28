@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bg-img {
+    /* The images used */
+    background-image: url("images/image3.png"), url("images/image2.png");
+  
+    min-height: 130vh; /* Adjust the total height based on your needs */
+  
+    /* Center horizontally and align the bottom of the second image */
+    background-position: center bottom, center top;
+  
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+
+  ****
+    
+
