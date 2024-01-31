@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  
 }
 
   .bg-img img {
@@ -11,6 +12,9 @@ body {
     height: auto; 
     object-fit: cover;
     object-position: center bottom 75%; 
+    background-image: url("images/image2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
   }
 
@@ -29,7 +33,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 20px;
   }
-
+  
+.fixedbg{
+  background-image: url("images/image2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .overlay1 {
 
   width: 100%;
